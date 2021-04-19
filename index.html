@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+
+  <!-- Bootstrap CSS-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="CSS\styles.css" />
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css?family=Amatic+SC:400,700|Baloo+Tamma+2|Bangers|Courgette|Dancing+Script|Dosis|Girassol|Gloria+Hallelujah|Indie+Flower|Montserrat|Pacifico|Permanent+Marker|Sacramento|Ubuntu&display=swap"
+    rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/115a53092f.js" crossorigin="anonymous"></script>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+  <!-- Page Title-->
+  <title>M.Sc. Geomatics - login</title>
+</head>
+
+<body>
+  <section class=" container-md login-section">
+    <div class="row">
+      <div class="col-md-4 loginInfo-subsection">
+        <h3 id="welcome">Welcome</h3>
+        <hr />
+        <form class="login-form" action="evaluation.html" method="post">
+          <label for="username" class="username-label">Username</label>
+          <input type="text" class="form-validate" name="username" value="" required>
+          <label for="password" class="password-label">Password</label>
+          <input type="password" class="form-validate" name="password" value="" required>
+          <button type="submit" class="btn btn-dark btn-md float-right login-button"><i class="fas fa-sign-in-alt signIn-Icon"></i> Login</button>
+        </form>
+        <div class="login-trouble">
+          <h6>Contact <a href="mailto:thorston.leize@hs-karlsruhe.de"> admin</a> for login problems</h6>
+        </div>
+      </div>
+      <div class="col-md-8 carousel-login">
+        <div id="carouselIndicators" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselIndicators" data-slide-to="1"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img class="d-block img-fluid faculty-img" src="images\BA_Abschlusskarte_G.jpg" alt="image 1" />
+            </div>
+            <div class="carousel-item">
+              <img class="d-block img-fluid group-img" src="images\csm_MA_Gruppe-Start_GMC_e3db32727b.jpg" alt="image 2" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</body>
+
+</html>
